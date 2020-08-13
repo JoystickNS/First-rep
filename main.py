@@ -75,6 +75,7 @@ def play():
                     change_player()
                 else:
                     print("Эта клетка уже занята.")
+                    player_sel = 0
             except (ValueError, IndexError):
                 print("Такой клетки не существует.")
                 player_sel = 0
